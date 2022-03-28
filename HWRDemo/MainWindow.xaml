@@ -1,0 +1,60 @@
+﻿<hc:Window x:Class="HWRDemo.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:hc="https://handyorg.github.io/handycontrol"
+           xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+           xmlns:local="clr-namespace:HWRDemo.View"
+           mc:Ignorable="d"
+           DataContext="{Binding Source={StaticResource ViewModelLocator},Path=MainViewModel}"
+           Height="600" Width="960"
+
+           Title="MainWindow" Background="White" ShowNonClientArea="False">
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            CaptionHeight="50"
+            CornerRadius="0"
+            ResizeBorderThickness="4"
+            GlassFrameThickness="5" />
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--左侧导航栏-->
+        <Grid Grid.Column="0" Grid.RowSpan="4" Background="White" Focusable="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid>
+                <svgc:SvgViewbox Source="/img/hwd logo.svg" Margin="20" Effect="{StaticResource EffectShadow2}" />
+            </Grid>
+            <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Stretch" Margin="0 70 0 0">
+                <RadioButton Style="{StaticResource RadioButtonIcon}" IsChecked="True" HorizontalAlignment="Stretch"
+                             FocusVisualStyle="{x:Null}" Command="{Binding ChangePageCommand}" CommandParameter="0">
+                    <svgc:SvgViewbox Source="img/dashboard.svg" Grid.Row="1" Margin="4 5" />
+                </RadioButton>
+                <RadioButton Style="{StaticResource RadioButtonIcon}" HorizontalAlignment="Stretch" Margin="0 10 0 0"
+                             FocusVisualStyle="{x:Null}" Command="{Binding ChangePageCommand}" CommandParameter="1">
+                    <svgc:SvgViewbox Source="img/about.svg" Grid.Row="1" Margin="1" Width="21" />
+                </RadioButton>
+                <RadioButton Style="{StaticResource RadioButtonIcon}" HorizontalAlignment="Stretch" Margin="0 10"
+                             FocusVisualStyle="{x:Null}" Command="{Binding ChangePageCommand}" CommandParameter="2">
+                    <svgc:SvgViewbox Source="img/setting.svg" Grid.Row="1" Margin="5" />
+                </RadioButton>
+            </StackPanel>
+            <svgc:SvgViewbox Grid.Row="1" Source="/img/power.svg" VerticalAlignment="Bottom" Margin="0 30" Width="21"
+                             Cursor="Hand" />
+        </Grid>
+        <local:PredictView Grid.Column="1" Visibility="{Binding CurrentVisibilityModel.MainVisibility}" />
+        <Grid Grid.Column="1" Visibility="{Binding CurrentVisibilityModel.SettingVisibility}">
+            <local:SettingView />
+        </Grid>
+        <local:AboutView Grid.Column="1" Visibility="{Binding CurrentVisibilityModel.AboutVisibility}" />
+        <GridSplitter VerticalAlignment="Stretch" HorizontalAlignment="Right" Width="2"
+                      Background="{StaticResource BorderBrush}" />
+    </Grid>
+</hc:Window>

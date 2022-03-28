@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <g id="模型" transform="translate(-23.708 -15.579)">
+      <path id="Path_1" data-name="Path 1" d="M153.985,328.428l-.585.293V494.587l162.649,85.566V409.314Z" transform="translate(-41.771 -145.308)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M479.107,226.254,316.75,140.834l-155.774,81.91-6.29,3.364,162.064,80.886,1.9-.878,160.894-79.569V226.4l-.439-.146ZM318.652,306.116l-1.9.878Z" transform="translate(-42.473 -42.988)" fill="#fc9d10"/>
+      <path id="Path_3" data-name="Path 3" d="M469.106,167.615a27.206,27.206,0,0,0-11.555-12.14L286.71,65.082a26.767,26.767,0,0,0-24.865,0L91.151,154.89a26.475,26.475,0,0,0-7.021,6.29,29.253,29.253,0,0,0-4.388,5.7,27.206,27.206,0,0,0-2.925,11.7v175.52a26.913,26.913,0,0,0,14.627,23.7l170.693,89.808a26.912,26.912,0,0,0,12.14,3.51h2.048a25.6,25.6,0,0,0,10.385-2.779L457.4,378.533a26.913,26.913,0,0,0,14.627-23.7V178.585a25.744,25.744,0,0,0-2.925-10.97Zm-32.033,15.943L276.179,263.128l-1.9,1.024V434.845l-162.8-85.566V183.412l6.29-3.364,156.505-82.2,162.356,85.42Z" fill="#51459e"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <filter id="身份识别认证" x="48.685" y="48.685" width="413.297" height="413.296" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="131.698" y="131.759" width="213.258" height="235.363" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="272.301" y="224.279" width="130.081" height="142.842" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#身份识别认证)">
+      <path id="身份识别认证-2" data-name="身份识别认证" d="M172.807,412.786v90.038h84.666v34.14H138.667V412.786Zm364.157,0V536.963H418.135v-34.14h84.678l.011-90.038h34.14ZM257.484,138.667v34.14H172.807v79.318h-34.14V138.667Zm279.479,0V252.124h-34.14l-.011-79.318H418.146v-34.14Z" transform="translate(-87.48 -87.48)" fill="#1677ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M315.44,232.32H152.96v61.3h35.778V268.1h45.349V416.905H207.652v35.778h88.874V416.905H269.864V268.1H315.44V293.62h35.778v-61.3Z" transform="translate(-18.76 -98.06)" fill="#51459e"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M642.183,492.16H547.84v35.55h20.737V512.9h26.434v86.368H579.744V620h51.5V599.265h-15.5V512.9h26.434V527.71h20.737V492.16Z" transform="translate(-273.04 -265.38)" fill="#fc9d10"/>
+    </g>
+  </g>
+</svg>

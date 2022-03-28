@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <path id="算法演示_面性" d="M0,328.287a13.491,13.491,0,0,0,13.491,13.491H373.257a13.491,13.491,0,0,0,13.491-13.491V87.693H0Zm243.18-161.9,19.09-19.09L319.5,204.617,262.27,261.865l-19.09-19.023L281.4,204.618Zm-33.391-17.269,23.385,13.491L176.96,259.976l-23.385-13.491Zm-85.31-1.821,19.09,19.09-38.225,38.225,38.225,38.225-19.09,19.09L67.254,204.617ZM373.259,0H13.491A13.491,13.491,0,0,0,0,13.491V74.2H386.75V13.491A13.491,13.491,0,0,0,373.259,0Z" transform="translate(56.995 79.111)" fill="#51459e"/>
+    <path id="Path_1" data-name="Path 1" d="M181.475,226.363l-56.987,57.326,56.987,57.891L201.15,321.9l-38.558-38.216,38.558-38.1Z" fill="#fc9d10" stroke="#fc9d10" stroke-width="1"/>
+    <path id="Path_2" data-name="Path 2" d="M144.019,226.363l56.569,56.905-56.569,57.466L124.488,321.2l38.275-37.936-38.275-37.825Z" transform="translate(176.099)" fill="#fc9d10" stroke="#fc9d10" stroke-width="1"/>
+    <path id="Path_3" data-name="Path 3" d="M266.842,228.311l-56.1,97.674,23.223,12.959,56.36-96.978Z" fill="#fc9d10" stroke="#fc9d10" stroke-width="1"/>
+  </g>
+</svg>
